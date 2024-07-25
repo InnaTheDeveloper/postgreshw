@@ -108,7 +108,7 @@
     }
 
     PERSON_PHOTO {
-        int id
+        int *id
         UUID person_id
         int photo_id
         boolean is_primary
